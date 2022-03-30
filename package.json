@@ -1,8 +1,6 @@
 {
   "name": "my-website",
   "version": "0.1.0",
-  "homepage": "https://zepedros.github.io/zepedros.github.io",
-
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -15,10 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "npm install && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,7 +38,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
-    "gh-pages": "^3.2.3",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.18"
   }
