@@ -10,11 +10,14 @@ export default function AboutMe() {
                 <TopMenu></TopMenu>
             </div>
 
-            <h1 className='font-modenine'>ABOUT ME
-                <br>
-                </br>
-                UNDER DEVELOPMENT 🛠️
+            <h1>
+                ABOUT ME
             </h1>
+            <br>
+            </br>
+            <p className="font-modenine">
+                Currently a student/worker, studying my Master's Degree at Nova IMS in Information Management and working at Happy Code Oriente as a IT/Code teacher.
+            </p>
         </div>
     )
 }

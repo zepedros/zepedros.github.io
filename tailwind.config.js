@@ -8,6 +8,14 @@ module.exports = {
       'modenine' : ['MODENINE']
     },
 
+    colors: {
+      'background-white': '#FFFFFF'
+    },
+
+    textColor: {
+      'tgrey': "#CFCFCF"
+    },
+
     extend:{}
   },
   plugins: [],
