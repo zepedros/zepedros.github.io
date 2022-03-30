@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc9bbf9b.css",
-    "main.js": "/static/js/main.23f1a4b1.js",
-    "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
-    "static/media/MODENINE.TTF": "/static/media/MODENINE.116d0efd9dbb932a0a45.TTF",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.dc9bbf9b.css.map": "/static/css/main.dc9bbf9b.css.map",
-    "main.23f1a4b1.js.map": "/static/js/main.23f1a4b1.js.map",
-    "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
+    "main.css": "/react-gh-pages/static/css/main.27c5f41d.css",
+    "main.js": "/react-gh-pages/static/js/main.6f1e051a.js",
+    "static/js/787.bbe01249.chunk.js": "/react-gh-pages/static/js/787.bbe01249.chunk.js",
+    "static/media/MODENINE.TTF": "/react-gh-pages/static/media/MODENINE.116d0efd9dbb932a0a45.TTF",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.27c5f41d.css.map": "/react-gh-pages/static/css/main.27c5f41d.css.map",
+    "main.6f1e051a.js.map": "/react-gh-pages/static/js/main.6f1e051a.js.map",
+    "787.bbe01249.chunk.js.map": "/react-gh-pages/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc9bbf9b.css",
-    "static/js/main.23f1a4b1.js"
+    "static/css/main.27c5f41d.css",
+    "static/js/main.6f1e051a.js"
   ]
 }
