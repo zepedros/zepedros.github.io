@@ -1,8 +1,6 @@
 import Header from "../common/Header"
 import TopMenu from "../common/TopMenu"
 export default function HomePage() {
-    const alisa = process.env.PUBLIC_URL
-    console.log(`This is alisa: ${alisa}`);
     return (
         <div>
 
