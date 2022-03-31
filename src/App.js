@@ -1,5 +1,6 @@
 import './App.css';
 import {
+  HashRouter,
   BrowserRouter,
   Routes,
   Route,
@@ -13,14 +14,14 @@ import Contacts from './components/contacts/Contacts';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="default" element={<Default/>}/>
         <Route path="/" element={<HomePage/>}/>
         <Route path="about-me" element={<AboutMe/>}/>
         <Route path="contacts" element={<Contacts/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
