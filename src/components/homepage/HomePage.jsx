@@ -1,6 +1,7 @@
 import Header from "../common/Header"
 import TopMenu from "../common/TopMenu"
 export default function HomePage() {
+    console.log(process.env.PUBLIC_URL);
     return (
         <div>
 
@@ -14,7 +15,6 @@ export default function HomePage() {
             <h1 className='font-modenine'>HOME PAGE
                 <br>
                 </br>
-                {process.env.PUBLIC_URL}
                 UNDER DEVELOPMENT 🛠️
             </h1>
         </div>
