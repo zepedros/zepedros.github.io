@@ -17,8 +17,8 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="default" element={<Default />} />
-        <Route path="/" element={<HomePage />} />
-        <Route path="about-me" element={<AboutMe />} />
+        <Route path={process.env.PUBLIC_URL+"/"}  element={<HomePage />} />
+        <Route path={process.env.PUBLIC_URL+"/about-me"} element={<AboutMe />} />
         <Route path={process.env.PUBLIC_URL+"/contacts"} element={<Contacts />} />
       </Routes>
     </HashRouter>
