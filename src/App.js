@@ -14,14 +14,14 @@ import Contacts from './components/contacts/Contacts';
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
-        <Route path="default" element={<Default />} />
-        <Route path="/" element={<HomePage />} />
-        <Route path="about-me" element={<AboutMe />} />
-        <Route path="contacts" element={<Contacts />} />
+        <Route path="default" element={<Default/>}/>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="about-me" element={<AboutMe/>}/>
+        <Route path="contacts" element={<Contacts/>}/>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
