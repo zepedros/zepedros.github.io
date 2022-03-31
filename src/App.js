@@ -19,7 +19,7 @@ function App() {
         <Route path="default" element={<Default />} />
         <Route path="/" element={<HomePage />} />
         <Route path="about-me" element={<AboutMe />} />
-        <Route path="contacts" element={<Contacts />} />
+        <Route path={process.env.PUBLIC_URL+"/contacts"} element={<Contacts />} />
       </Routes>
     </HashRouter>
   );
