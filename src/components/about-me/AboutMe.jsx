@@ -1,13 +1,13 @@
-import Header from "../common/Header"
-import TopMenu from "../common/TopMenu"
+import NewHeader from "../common/NewHeader"
+import NewTopMenu from "../common/NewTopMenu"
 export default function AboutMe() {
     return (
         <div>
             <div className="hidden md:block">
-                <Header></Header>
+                <NewHeader></NewHeader>
             </div>
             <div className="visible xl:block">
-                <TopMenu></TopMenu>
+                <NewTopMenu></NewTopMenu>
             </div>
 
             <h1>
