@@ -14,13 +14,13 @@ export default function Header() {
                             </a>
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
-                                    <a className={window.location.pathname==="/"? dark_gray : light_gray} href="/">
+                                    <a className={window.location.pathname==="/#"? dark_gray : light_gray} href="/#">
                                         HOME
                                     </a>
-                                    <a className={window.location.pathname==="/about-me"? dark_gray : light_gray}href="/about-me">
+                                    <a className={window.location.pathname==="/#/about-me"? dark_gray : light_gray}href="/#/about-me">
                                         ABOUT ME 
                                     </a>
-                                    <a className={window.location.pathname==="/contacts"? dark_gray : light_gray}href="/contacts">
+                                    <a className={window.location.pathname==="/#/contacts"? dark_gray : light_gray}href="/#/contacts">
                                         CONTACTS
                                     </a>
                                 </div>

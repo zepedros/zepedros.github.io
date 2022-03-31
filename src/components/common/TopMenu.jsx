@@ -36,13 +36,13 @@ export default function TopMenu() {
                 </div>
                 <div className={(burguerIsOpen? "visible" : "invisible") + " max-w-7xl mx-auto px-5"} >
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <a className={window.location.pathname === "/" ? dark_gray : light_gray} href="/">
+                        <a className={window.location.pathname === "/#" ? dark_gray : light_gray} href="/#">
                             HOME
                         </a>
-                        <a className={window.location.pathname === "/about-me" ? dark_gray : light_gray} href="/about-me">
+                        <a className={window.location.pathname === "/#/about-me" ? dark_gray : light_gray} href="/#/about-me">
                             ABOUT ME
                         </a>
-                        <a className={window.location.pathname === "/contacts" ? dark_gray : light_gray} href="/contacts">
+                        <a className={window.location.pathname === "/#/contacts" ? dark_gray : light_gray} href="/#/contacts">
                             CONTACTS
                         </a>
                     </div>

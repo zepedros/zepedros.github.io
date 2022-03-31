@@ -17,9 +17,9 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="default" element={<Default />} />
-        <Route exact path={`${process.env.PUBLIC_URL}/`}  element={<HomePage />} />
-        <Route exact path={`${process.env.PUBLIC_URL}/#/about-me`} element={<AboutMe />} />
-        <Route exact path={`${process.env.PUBLIC_URL}/#/contacts`} element={<Contacts />} />
+        <Route path={`/`}  element={<HomePage />} />
+        <Route path={`/about-me`} element={<AboutMe />} />
+        <Route path={`/contacts`} element={<Contacts />} />
       </Routes>
     </HashRouter>
   );
