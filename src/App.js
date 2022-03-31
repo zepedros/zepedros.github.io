@@ -16,10 +16,10 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="default" element={<Default/>}/>
-        <Route path="/" element={<HomePage/>}/>
-        <Route path="about-me" element={<AboutMe/>}/>
-        <Route path="contacts" element={<Contacts/>}/>
+        <Route path="default" element={<Default />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="about-me" element={<AboutMe />} />
+        <Route path="contacts" element={<Contacts />} />
       </Routes>
     </HashRouter>
   );
