@@ -14,6 +14,7 @@ export default function HomePage() {
             <h1 className='font-modenine'>HOME PAGE
                 <br>
                 </br>
+                {process.env.PUBLIC_URL}
                 UNDER DEVELOPMENT 🛠️
             </h1>
         </div>
