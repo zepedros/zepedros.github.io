@@ -52,6 +52,8 @@ export default function NewTopMenu() {
                                 </Disclosure.Button>
                             ))}
                         </div>
+                        <div></div>
+                        <div></div>
                     </Disclosure.Panel>
                 </>
             )}

@@ -9,6 +9,7 @@ export default function Contacts(){
             <div className="visible xl:block">
                 <NewTopMenu></NewTopMenu>
             </div>
+            
             <h1 className='font-modenine'>CONTACTS
                 <br>
                 </br>

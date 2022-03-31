@@ -9,7 +9,7 @@ export default function AboutMe() {
             <div className="visible xl:block">
                 <NewTopMenu></NewTopMenu>
             </div>
-
+        
             <h1>
                 ABOUT ME
             </h1>

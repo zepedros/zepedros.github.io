@@ -6,17 +6,13 @@ import NewTopMenu from "../common/NewTopMenu"
 export default function HomePage() {
     return (
         <div>
-            
-                <div className="hidden md:block">
+
+            <div className="hidden md:block">
                 <NewHeader></NewHeader>
             </div>
             <div className="visible xl:block">
                 <NewTopMenu></NewTopMenu>
             </div>
-             
-
-            
-
             <h1 className='font-modenine'>HOME PAGE
                 <br>
                 </br>
