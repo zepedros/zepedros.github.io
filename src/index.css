@@ -46,13 +46,14 @@ code {
 }
 
 .blob {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 50vmax;
   z-index: -1;
   animation: move 10s ease-in-out infinite;
   transform-origin: 50% 50%;
+
 }
 
 @keyframes move {
