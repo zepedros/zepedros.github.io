@@ -6,10 +6,12 @@ import NewTopMenu from "../common/NewTopMenu"
 export default function HomePage() {
     return (
         <div>
+            {/* This makes sure the Header is only shown from md (MEDIUM) and above*/}
             <div className="hidden md:block">
                 <NewHeader></NewHeader>
             </div>
-            <div className="visible xl:block">
+            {/*Hides everything from Medium AND  up to 2xl */}
+            <div className="md:hidden">
                 <NewTopMenu></NewTopMenu>
             </div>
             <div className="p-computer">
